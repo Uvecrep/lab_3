@@ -23,6 +23,6 @@ grep -o $regEx3 $fileName >> emails.txt
 
 #grep -c '.*\@.*\.*' regex_practice.txt
 
-#grep -o '^303.\{8\}' regex_practice.txt
+#grep -o '^303.\{9\}' regex_practice.txt
 
 #grep -o '^.*@geocities.com' regex_practice.txt >> emails.txt 
