@@ -15,7 +15,7 @@ read regEx2
 grep -o $regEx2 $fileName
 echo "Please provide a regular expression for emails:"
 read regEx3
-grep -o $regEx3 $fileName >> emails.txt
+grep -o $regEx3 $fileName >> email_results.txt
 
 #grep -c '\(([0-9]\{3\})\|[0-9]\{3\}\)[-]\+[0-9]\{3\}[-]\+[0-9]\{4\}' regex_practice.txt
 #or
@@ -25,4 +25,4 @@ grep -o $regEx3 $fileName >> emails.txt
 
 #grep -o '^303.\{9\}' regex_practice.txt
 
-#grep -o '^.*@geocities.com' regex_practice.txt >> emails.txt 
+#grep -o '^.*@geocities.com' regex_practice.txt >> email_results.txt 
